@@ -3,11 +3,12 @@ import Button from '@mui/material/Button';
 import AlarmIcon from '@mui/icons-material/Alarm';
 import { IconButton} from '@mui/material';
 import RatingDemo from './RatingDemo';
+import FormDemo from './FormDemo';
 
 function App() {
   return (
     <div>
-      <Button variant="text">Text</Button>
+      {/* <Button variant="text">Text</Button>
       <Button variant="contained" onClick={() => {alert('hello')}}>Contained</Button>
       <Button variant="outlined">Outlined</Button>
       <Button variant="contained" 
@@ -17,7 +18,9 @@ function App() {
       <IconButton color="secondary" aria-label="add an alarm">
         <AlarmIcon />
       </IconButton>
-      <RatingDemo/>
+      <RatingDemo/> */}
+
+      <FormDemo/>
     </div>
   )
 }
