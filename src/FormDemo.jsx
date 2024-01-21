@@ -1,6 +1,6 @@
 import { TextField } from "@mui/material"
 import { useState } from "react"
-import {Slider, Stack} from "@mui/material"
+import {Slider, Stack, Box} from "@mui/material"
 import VolumeDown from '@mui/icons-material/VolumeDown';
 import VolumeUp from '@mui/icons-material/VolumeUp';
 export default function FormDemo() {
@@ -15,7 +15,8 @@ export default function FormDemo() {
         setname(e.target.value)
     }
     return (
-        <div>
+        
+        <Box sx = {{border: 'solid 1px black', p: 10}}>
             <h1>name is: {name}</h1>
             <TextField id="outlined-basic" label="Outlined" variant="outlined"
             onChange={updateName} />
@@ -26,6 +27,6 @@ export default function FormDemo() {
             <Slider aria-label="Volume" value={volume} onChange={volumeChange} />
             <VolumeUp />
         </Stack>
-        </div>
+        </Box>
     )
 }
