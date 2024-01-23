@@ -1,10 +1,11 @@
 import './App.css'
 import Button from '@mui/material/Button';
 import AlarmIcon from '@mui/icons-material/Alarm';
-import { IconButton} from '@mui/material';
+import { IconButton, Switch} from '@mui/material';
 import RatingDemo from './RatingDemo';
 import FormDemo from './FormDemo';
 import Navbar from './Navbar';
+import SwitchDemo from './SwitchDemo'
 function App() {
   return (
     <div>
@@ -19,8 +20,9 @@ function App() {
         <AlarmIcon />
       </IconButton>
       <RatingDemo/> */}
-      <Navbar/>
-      <FormDemo/>
+      {/* <Navbar/>
+      <FormDemo/> */}
+      <SwitchDemo/>
     </div>
   )
 }
