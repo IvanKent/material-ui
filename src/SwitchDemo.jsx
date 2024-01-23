@@ -15,6 +15,11 @@ export default function BasicSwitches() {
       <FormControlLabel required control={<Switch />} label="Required" />
       <FormControlLabel disabled control={<Switch />} label="Disabled" />
     </FormGroup>
+
+    <Switch {...label} defaultChecked />
+    <Switch {...label} defaultChecked color="secondary" />
+    <Switch {...label} defaultChecked color="warning" />
+    <Switch {...label} defaultChecked color="default" />
     </div>
   );
 }
