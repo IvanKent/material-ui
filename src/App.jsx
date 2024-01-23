@@ -6,6 +6,8 @@ import RatingDemo from './RatingDemo';
 import FormDemo from './FormDemo';
 import Navbar from './Navbar';
 import SwitchDemo from './SwitchDemo'
+import CustomizedSwitches from './ToggledButton';
+import ToggledButton from './ToggledButton';
 function App() {
   return (
     <div>
@@ -23,6 +25,8 @@ function App() {
       {/* <Navbar/>
       <FormDemo/> */}
       <SwitchDemo/>
+      {/* <CustomizedSwitches/> */}
+      <ToggledButton/>
     </div>
   )
 }
